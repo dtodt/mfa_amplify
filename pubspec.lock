@@ -26,21 +26,23 @@ packages:
     source: hosted
     version: "1.5.0"
   amplify_auth_cognito_dart:
-    dependency: transitive
+    dependency: "direct main"
     description:
-      name: amplify_auth_cognito_dart
-      sha256: "7e8bfe5caa97f69a5465aeaad2d29865bc67f09f59045c8ca66a02307eb6ace6"
-      url: "https://pub.dev"
-    source: hosted
-    version: "0.10.5"
+      path: "packages/auth/amplify_auth_cognito_dart"
+      ref: "auth/bug-forget-local-device"
+      resolved-ref: a3b23899dbdd314207a7eee2b9b6e8d9d0c3b655
+      url: "git@github.com:dtodt/amplify-flutter.git"
+    source: git
+    version: "0.10.4"
   amplify_core:
-    dependency: transitive
+    dependency: "direct main"
     description:
-      name: amplify_core
-      sha256: "97ed1322aeb689880a8633cd2bd1f0245fe439bea5c1e0282cfc3123f162a73a"
-      url: "https://pub.dev"
-    source: hosted
-    version: "1.5.1"
+      path: "packages/amplify_core"
+      ref: "auth/bug-forget-local-device"
+      resolved-ref: a3b23899dbdd314207a7eee2b9b6e8d9d0c3b655
+      url: "git@github.com:dtodt/amplify-flutter.git"
+    source: git
+    version: "1.4.1"
   amplify_db_common:
     dependency: transitive
     description:

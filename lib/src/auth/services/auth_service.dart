@@ -75,6 +75,7 @@ class CognitoAuthService implements AuthService {
     try {
       final devices = await _cognito.fetchDevices();
       for (final device in devices) {
+        if (device.current ?? false) continue;
         await _cognito.forgetDevice(device);
       }
       return unit.toSuccess();
